@@ -4,7 +4,7 @@ int N = Prompt("Введите натуральное число: ");
 
 if (N > 0)
 {
-    Sum();
+    Console.WriteLine($"{Sum()}");
 }
 
 else Console.WriteLine("Число не является натуральным");
@@ -18,7 +18,7 @@ int Prompt(String message)
     return Value;
 }
 
-void Sum()
+int Sum()
 {
     int sum = 0;
     string strArray = N.ToString();
@@ -27,7 +27,7 @@ void Sum()
     {
         sum += Convert.ToInt32(strArray.Substring(i,1));
     }
-    Console.WriteLine($"{sum}");
+    return sum;
 }
 
 
