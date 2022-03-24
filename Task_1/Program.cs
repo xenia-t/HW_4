@@ -10,12 +10,12 @@ int Promt(String message)
 
 void Power(int A, int B)
 {
-	int result = 1;
-	for (int i = 0; i < B; i++)
-	{
-		result *= A;
-	}
-	Console.WriteLine(result);
+    int result = 1;
+    for (int i = 0; i < B; i++)
+    {
+        result *= A;
+    }
+    Console.WriteLine(result);
 }
 
 int A = Promt("Введите число А: ");
@@ -23,7 +23,7 @@ int B = Promt("Введите натуральное число В: ");
 
 if (B > 0)
 {
-	 Power(A,B);
+    Power(A,B);
 }
 
 else Console.WriteLine("Введено некорректное значение В");
