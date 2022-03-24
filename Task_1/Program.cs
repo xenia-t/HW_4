@@ -2,9 +2,9 @@
 
 int Promt(String message)
 {
-	Console.Write(message);
-	string strValue = Console.ReadLine();
-	int Value = int.Parse(strValue);
+    Console.Write(message);
+    string strValue = Console.ReadLine();
+    int Value = int.Parse(strValue);
     return Value;
 }
 
