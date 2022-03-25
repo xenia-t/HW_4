@@ -23,8 +23,7 @@ int B = Promt("Введите натуральное число В: ");
 
 if (B > 0)
 {
-    int pow = Power(A,B);
-    Console.WriteLine($"{pow}");
+    Console.WriteLine($"{Power(A,B)}");
 }
 
 else Console.WriteLine("Введено некорректное значение В");
